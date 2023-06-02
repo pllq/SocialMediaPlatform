@@ -7,11 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Registrare" Margin="292,321,292,79" Click="Button_Click"/>
-        <TextBox x:Name="LoginTextBox" TextWrapping="Wrap" Margin="292,184,292,217" TextChanged="TextBox_TextChanged"/>
-        <Label Content="Login" Margin="292,152,391,255"/>
-        <TextBox x:Name="PasswordTextBox" TextWrapping="Wrap" Margin="292,246,292,155" TextChanged="TextBox_TextChanged"/>
-        <Label Content="Password" Margin="292,219,391,188"/>
+        <Button x:Name="LoginButton" Content="Log in" Height="50" Width="216" Margin="292,167,292,217" Click="Button_Click" IsEnabled="False"/>
+        <Button x:Name="SignupButton" Content="Sign up" Height="50" Width="216" Margin="292,268,292,116" Click="Button_Click"/>
 
     </Grid>
 </Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="SocialMediaPlatform.InformationInput"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SocialMediaPlatform"
+        mc:Ignorable="d"
+        Title="InformationInput" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Button" Content="Registrate" Height="50" Width="216" Margin="560,362,24,22" Click="RegistrationButton_Click"/>
+        <TextBox x:Name="UsernameTextBox" Height="33.04" Width="216" TextWrapping="Wrap" Margin="292,186,292,215" TextChanged="UsernameTextBox_TextChanged"/>
+        <Label Content="Username" Height="27.04" Width="117" Margin="292,154,391,253"/>
+        <TextBox x:Name="EmailTextBox" Height="33.04" Width="216" TextWrapping="Wrap" Margin="292,251,292,150" TextChanged="EmailTextBox_TextChanged"/>
+        <Label Content="Email" Height="27.04" Width="117" Margin="292,224,391,183"/>
+        <TextBox x:Name="IDTextBox" Height="33.04" Width="216" TextWrapping="Wrap" Margin="292,44,292,357" TextChanged="IDTextBox_TextChanged"/>
+        <Label Content="ID" Height="27.04" Width="117" Margin="292,12,391,395"/>
+        <TextBox x:Name="NameTextBox" Height="33.04" Width="216" TextWrapping="Wrap" Margin="292,114,292,287" TextChanged="NameTextBox_TextChanged"/>
+        <Label Content="Name" Height="27.04" Width="117" Margin="292,82,391,325"/>
+        <TextBox x:Name="DOBTextBox" Height="33.04" Width="216" TextWrapping="Wrap" Margin="292,316,292,85" TextChanged="DOBTextBox_TextChanged"/>
+        <Label Content="Date of birth" Height="27.04" Width="117" Margin="292,289,391,118"/>
+        <Label Content="Profile Picture" Height="27.04" Width="117" Margin="292,352,391,55"/>
+        <Button x:Name="PPButton" Content="Choose profile picture" Width="216" Margin="292,379,292,22" Click="PPButton_Click" RenderTransformOrigin="0.486,1.515"/>
+
+    </Grid>
+</Window>
